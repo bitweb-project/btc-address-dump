@@ -27,6 +27,20 @@ btc_testnet:
     bip49: m/49'/1'/0'/0/0
     bip84: m/84'/1'/0'/0/0
     bip86: m/86'/1'/0'/0/0
+bte:
+  name: Bitweb
+  home: https://bitwebcore.net
+  src_code: https://github.com/bitweb-project/bitweb
+  base58_prefix:
+    pubkey: 33
+    script: 30
+    wif: 128
+  bech32_hrp: web
+  hd_path:
+    bip44: m/44'/0'/0'/0/0
+    bip49: m/49'/0'/0'/0/0
+    bip84: m/84'/0'/0'/0/0
+    bip86: m/86'/0'/0'/0/0
 bch:
   name: Bitcoin Cash
   home: https://bitcoincash.org
